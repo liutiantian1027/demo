@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-servers
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/liutiantian1027/demo.git
+          search-paths:
+          - configfiles
+      label: dev
+server:
+  port: 8888

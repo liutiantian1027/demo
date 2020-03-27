@@ -13,6 +13,7 @@
         <module>config-server</module>
         <module>config-server</module>
         <module>config-server</module>
+        <module>config-servers</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

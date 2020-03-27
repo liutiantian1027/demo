@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="service-user" />
-        <module name="config-server" />
-        <module name="gateway-server" />
+        <module name="config-servers" />
+        <module name="service-order" />
         <module name="erueka-server" />
         <module name="service-product" />
-        <module name="service-order" />
+        <module name="gateway-server" />
         <module name="zuul-gateway-server" />
       </profile>
     </annotationProcessing>
@@ -26,6 +26,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringCloudZuul-demo" options="-parameters" />
       <module name="config-server" options="-parameters" />
+      <module name="config-servers" options="-parameters" />
       <module name="erueka-server" options="-parameters" />
       <module name="gateway-server" options="-parameters" />
       <module name="getway-server" options="-parameters" />
