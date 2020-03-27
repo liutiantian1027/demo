@@ -9,6 +9,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/getway-server/pom.xml" />
         <option value="$PROJECT_DIR$/server-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/zuul/pom.xml" />

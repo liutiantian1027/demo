@@ -7,15 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="service-user" />
-        <module name="service-order" />
-        <module name="erueka-server" />
-        <module name="service-product" />
         <module name="config-server" />
         <module name="gateway-server" />
+        <module name="erueka-server" />
+        <module name="service-product" />
+        <module name="service-order" />
         <module name="zuul-gateway-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-server" target="1.8" />
       <module name="getway-server" target="1.8" />
       <module name="server-consumer" target="1.8" />
       <module name="zuul" target="1.8" />
